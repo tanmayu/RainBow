@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '=';
+const prefix = '+';
 
 
 client.on('ready', () => {
@@ -51,6 +51,6 @@ const allowedUsers = config.allowedUsers;
 const roles = config.roleToDisco;
  
 client.on("ready", () => {
-    client.user.setPresence({ game: { name: `Disco Roles! Created by i am toast#1213` }, type: 0 });
-    console.log("Disco role bot online! Created by i am toast.");
+    client.user.setPresence({ game: { name: `Disco Roles! Created by ÑÍGHTTÉRRØR` }, type: 0 });
+    console.log("Disco role bot online! Created by ÑÍGHTTÉRRØR");
 });
