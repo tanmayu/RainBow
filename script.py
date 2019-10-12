@@ -42,7 +42,7 @@ async def on_message(message):
                 if role and not dothething[str(message.guild.id)]:
                         dothething[str(message.guild.id)]=1
                         while dothething[str(message.guild.id)]:
-                                users = [int(str(x.status)=="online") for x in message.server.members if role in x.roles] #black magic fuckery here
+                                users = [int(str(x.status)=="online") for x in message.guild.members if role in x.roles] #black magic fuckery here
                                 users.append(0)
                                 print(str(message.guild.name)+" - "+str(users))
                                 if max(users):
