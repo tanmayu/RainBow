@@ -39,7 +39,7 @@ async def on_message(message):
                         dothething[str(message.guild.id)]
                 except:
                         dothething[str(message.guild.id)]=0
-                if role and not dothething[str(message.server.id)]:
+                if role and not dothething[str(message.guild.id)]:
                         dothething[str(message.guild.id)]=1
                         while dothething[str(message.guild.id)]:
                                 users = [int(str(x.status)=="online") for x in message.server.members if role in x.roles] #black magic fuckery here
