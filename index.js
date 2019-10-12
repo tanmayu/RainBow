@@ -16,7 +16,7 @@ client.on('ready', () =>
 
 function RenkAyarla()
 {
-      var role = client.guilds.get(config.sunucu_id).roles.find(r => r.name=="Parti");
+      var role = client.guilds.get(config.sunucu_id).roles.find(r => r.name=="top");
       //console.log(role);
       role.setColor(renkler[renk_pos]).catch(console.error);
       if (++renk_pos >= renk_sayisi) renk_pos = 0;
