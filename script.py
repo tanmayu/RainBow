@@ -63,5 +63,5 @@ async def on_message(message):
                                         #await asyncio.sleep(10)
                                         pass
                                         
-client.run(os.getenv('NjEzMjk0MjI0NDYwNDgwNTIy.XaG87g.DOxE7qkoftEDK9ueQL5C1EtbjGg'))
+client.run(os.getenv('NjMyNTYzNTczMDI1MTQ0ODUy.XaHO3A.TwlfbpVwf4OkOw0O5LU7Sewdol4'))
 
